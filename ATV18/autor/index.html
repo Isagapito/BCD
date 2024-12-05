@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">   
+<head>
+    <link rel="stylesheet" href="form.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livro</title>
+</head>
+<body>
+    <form>
+        <label for="nome"> Nome:</label>
+        <input type="text" name="nome" id="nome"
+        required = "required" autofocus><br>
+
+        <label for="telefone"> Id_Autor:</label>
+        <input type="text" name="Id_Livro" id="Id_Livro"
+
+        required><br>
+        <label for="text">email:</label>
+        <input type="text" name="ISBN" id="ISBN"
+        required><br>
+        
+        <label for="text">Gênero:</label>
+        <input type="text" name="Gênero" id="Gênero"
+        required><br>
+       
+
+        <label for="foto"> Foto do autor:</label>
+        <input type="file" name="foto" id="foto" required><br>
+
+        <br>
+        <label>Comentarios adicionais: </label>
+        <textarea name="Informações" cols="25" rows="8"
+        maxlenght="100" required placeholder="Escreva Informações adicionais que julgar importante"></textarea>
+        <br>
+        <input type="submit" name="enviar" value="Enviar" id="enviar">
+        <p>
+        <input type="submit" value="Enviar (Simulação)" id="enviar">
+        </p>
+        </form>
+</body>
+</html>
